@@ -6,7 +6,6 @@ import Register from '../form/Register';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import SiteBar from '../siteBar/SiteBar';
-import './form.css';
 
 const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");

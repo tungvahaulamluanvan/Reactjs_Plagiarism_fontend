@@ -57,10 +57,6 @@
   width: 240px;
   padding: 0 0px;
  }
- .searchbar-txt{
-   color: white;
-   margin-bottom: 50%;
- }
  .searchbar:hover > .searchbar-btn {
   background: #06f74e;
   color: white;
@@ -83,6 +79,9 @@
  }
  .searchbar-btn > i {
   font-size: 20px;
+ }
+ :-ms-input-placeholder{
+   color: red;
  }
  .searchbar-txt {
   border: none;

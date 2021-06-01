@@ -5,7 +5,6 @@ import Form from "react-validation/build/form";
 import { register } from "../actions/authentication";
 import Input from "react-validation/build/input";
 import CheckButton from "react-validation/build/button";
-
 const required = (value) => {
     if (!value) {
       return (

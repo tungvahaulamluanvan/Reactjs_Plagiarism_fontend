@@ -8,7 +8,7 @@ class MainHeader extends Component{
             <Link to="/" class="main-header-logo">MyLoGo</Link>
             <div class="main-header-right">
                 <Link to="/" className="active">Trang chủ</Link>
-                <a href="">Quét tài liệu</a>
+                <Link to="/managedoc">Quét tài liệu</Link>
                 <a href="">Trợ giúp</a>
                 <a href="">Liên hệ</a>
             </div>

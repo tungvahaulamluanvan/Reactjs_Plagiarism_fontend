@@ -6,30 +6,15 @@ import Register from '../form/Register';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import SiteBar from '../siteBar/SiteBar';
-
-const sign_in_btn = document.querySelector("#sign-in-btn");
-const sign_up_btn = document.querySelector("#sign-up-btn");
-const container = document.querySelector(".container");
-console.log(sign_up_btn);
-console.log(sign_in_btn);
-if(sign_up_btn|| sign_in_btn){
-    sign_up_btn.addEventListener("click", () => {
-        container.classList.add("sign-up-mode");
-      });
-      
-      sign_in_btn.addEventListener("click", () => {
-        container.classList.remove("sign-up-mode");
-      });
-}
-
+import './form.css';
 class RegisterPage extends Component{
 
     render(){
         return(
         <div>
             <Header></Header>
-            <SiteBar></SiteBar>
-            <div className="container sign-up-mode">
+            <SiteBar siteName="Đăng ký"></SiteBar>
+            <div className="container slide sign-up-mode">
                 <div className="panels-container">
                     <Login></Login>
                     <Register></Register>

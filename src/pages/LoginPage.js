@@ -5,7 +5,7 @@ import Login from '../form/Login';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import SiteBar from '../siteBar/SiteBar';
-
+import './form.css';
 
 class FormLogin extends Component{
     
@@ -13,8 +13,8 @@ class FormLogin extends Component{
         return(
       <div>
         <Header></Header>
-          <SiteBar></SiteBar>
-          <div className="container">
+          <SiteBar siteName="Đăng nhập"></SiteBar>
+          <div className="container slide">
               <div className="panels-container">            
                 <Login></Login>
                 <ContentRegist></ContentRegist>
